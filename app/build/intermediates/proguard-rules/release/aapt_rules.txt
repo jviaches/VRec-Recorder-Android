@@ -1,0 +1,18 @@
+# Referenced at C:\Development\Projects\Android\VRec-Recorder-Android\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:33
+-keep class com.delph.About { <init>(); }
+# Referenced at C:\Development\Projects\Android\VRec-Recorder-Android\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:27
+-keep class com.delph.Rec { <init>(); }
+# Referenced at C:\Development\Projects\Android\VRec-Recorder-Android\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:28
+-keep class com.delph.RecList { <init>(); }
+# Referenced at C:\Development\Projects\Android\VRec-Recorder-Android\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:29
+-keep class com.delph.Settingz { <init>(); }
+# Referenced at C:\Development\Projects\Android\VRec-Recorder-Android\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:17
+-keep class com.delph.main { <init>(); }
+# Referenced at C:\Development\Projects\Android\VRec-Recorder-Android\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:35
+-keep class com.delph.vrec_service { <init>(); }
+# Referenced at C:\Development\Projects\Android\VRec-Recorder-Android\app\src\main\res\layout\vrec.xml:26
+-keepclassmembers class * { *** btn_StartRecordClick(android.view.View); }
+
+# Referenced at C:\Development\Projects\Android\VRec-Recorder-Android\app\src\main\res\layout\vrec.xml:45
+-keepclassmembers class * { *** btn_StopRecordClick(android.view.View); }
+

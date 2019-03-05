@@ -1,0 +1,15 @@
+com.delph.BuildConfig
+com.delph.R
+com.delph.R$array
+com.delph.R$color
+com.delph.R$drawable
+com.delph.R$id
+com.delph.R$layout
+com.delph.R$string
+com.delph.R$style
+com.delph.R$xml
+com.delph.RecList:
+    223:223:public void DeleteAllFiles()
+com.delph.main$MyView:
+    android.widget.TextView tv
+    android.widget.TextView tv1

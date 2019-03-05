@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+        android:id="@+id/parent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical">
+
+
+    <ImageView
+            android:background="@android:color/transparent"
+            android:id="@+id/upper_strip"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_gravity="top"
+            android:adjustViewBounds="true"
+            android:src="@drawable/logo_vrec">
+    </ImageView>
+
+    <ImageView
+            android:background="@android:color/transparent"
+            android:id="@+id/option_title"
+            android:layout_height="40dp"
+            android:layout_width="match_parent"
+            android:scaleType="fitStart"
+            android:src="@drawable/options_title">
+    </ImageView>
+
+    <ImageView
+            android:background="@android:color/transparent"
+            android:id="@+id/categ_strip"
+            android:layout_height="10dp"
+            android:layout_width="match_parent"
+            android:layout_gravity="top"
+            android:src="@drawable/categ_strip">
+    </ImageView>
+
+
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:paddingLeft="15dip"
+              android:paddingRight="15dip"
+              android:text="File Type:">
+    </TextView>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:id="@+id/linearlayout_for_radio_btn"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal">
+
+        <RadioGroup android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingLeft="15dip"
+                    android:id="@+id/QueGroup1">
+
+            <RadioButton
+                    android:id="@+id/codec_3pg"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3gp"/>
+
+            <RadioButton
+                    android:id="@+id/codec_amr"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="amr"/>
+
+            <RadioButton
+                    android:id="@+id/codec_mpeg4"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="mp4"/>
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <ImageView
+            android:background="@android:color/transparent"
+            android:id="@+id/middle_strip"
+            android:layout_height="10dp"
+            android:layout_width="match_parent"
+            android:layout_gravity="left"
+            android:src="@drawable/categ_strip">
+    </ImageView>
+
+
+    <ImageView
+            android:background="@android:color/transparent"
+            android:id="@+id/middle_strip2"
+            android:layout_height="40dp"
+            android:layout_width="match_parent"
+            android:layout_gravity="left"
+            android:scaleType="fitStart"
+            android:paddingLeft="15dip"
+            android:src="@drawable/file_location">
+    </ImageView>
+
+    <ImageView
+            android:background="@android:color/transparent"
+            android:id="@+id/middle_strip3"
+            android:layout_height="10dp"
+            android:layout_width="match_parent"
+            android:layout_gravity="left"
+            android:src="@drawable/categ_strip">
+    </ImageView>
+
+    <TextView android:id="@+id/filepath"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="">
+    </TextView>
+
+
+</LinearLayout>

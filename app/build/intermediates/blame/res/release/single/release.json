@@ -1,0 +1,194 @@
+[
+    {
+        "merged": "C:\\Development\\Projects\\Android\\VRec-Recorder-Android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_rec_time_strip.png.flat",
+        "source": "C:\\Development\\Projects\\Android\\VRec-Recorder-Android\\app\\src\\main\\res\\drawable-mdpi\\rec_time_strip.png"
+    },
+    {
+        "merged": "C:\\Development\\Projects\\Android\\VRec-Recorder-Android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_menu_btn_bg_selected.png.flat",
+        "source": "C:\\Development\\Projects\\Android\\VRec-Recorder-Android\\app\\src\\main\\res\\drawable-mdpi\\menu_btn_bg_selected.png"
+    },
+    {
+        "merged": "C:\\Development\\Projects\\Android\\VRec-Recorder-Android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_options_title.jpg.flat",
+        "source": "C:\\Development\\Projects\\Android\\VRec-Recorder-Android\\app\\src\\main\\res\\drawable-mdpi\\options_title.jpg"
+    },
+    {
+        "merged": "C:\\Development\\Projects\\Android\\VRec-Recorder-Android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_info_cat_not_sel.png.flat",
+        "source": "C:\\Development\\Projects\\Android\\VRec-Recorder-Android\\app\\src\\main\\res\\drawable-mdpi\\info_cat_not_sel.png"
+    },
+    {
+        "merged": "C:\\Development\\Projects\\Android\\VRec-Recorder-Android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_logo_vrec.png.flat",
+        "source": "C:\\Development\\Projects\\Android\\VRec-Recorder-Android\\app\\src\\main\\res\\drawable-mdpi\\logo_vrec.png"
+    },
+    {
+        "merged": "C:\\Development\\Projects\\Android\\VRec-Recorder-Android\\app\\build\\intermediates\\res\\merged\\release\\layout_settgs.xml.flat",
+        "source": "C:\\Development\\Projects\\Android\\VRec-Recorder-Android\\app\\src\\main\\res\\layout\\settgs.xml"
+    },
+    {
+        "merged": "C:\\Development\\Projects\\Android\\VRec-Recorder-Android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_btn_bg.jpg.flat",
+        "source": "C:\\Development\\Projects\\Android\\VRec-Recorder-Android\\app\\src\\main\\res\\drawable-mdpi\\btn_bg.jpg"
+    },
+    {
+        "merged": "C:\\Development\\Projects\\Android\\VRec-Recorder-Android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_rec_page_bg_old.png.flat",
+        "source": "C:\\Development\\Projects\\Android\\VRec-Recorder-Android\\app\\src\\main\\res\\drawable-mdpi\\rec_page_bg_old.png"
+    },
+    {
+        "merged": "C:\\Development\\Projects\\Android\\VRec-Recorder-Android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_file_location.jpg.flat",
+        "source": "C:\\Development\\Projects\\Android\\VRec-Recorder-Android\\app\\src\\main\\res\\drawable-mdpi\\file_location.jpg"
+    },
+    {
+        "merged": "C:\\Development\\Projects\\Android\\VRec-Recorder-Android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_about_upper_strip.jpg.flat",
+        "source": "C:\\Development\\Projects\\Android\\VRec-Recorder-Android\\app\\src\\main\\res\\drawable-mdpi\\about_upper_strip.jpg"
+    },
+    {
+        "merged": "C:\\Development\\Projects\\Android\\VRec-Recorder-Android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_rec2.png.flat",
+        "source": "C:\\Development\\Projects\\Android\\VRec-Recorder-Android\\app\\src\\main\\res\\drawable-mdpi\\rec2.png"
+    },
+    {
+        "merged": "C:\\Development\\Projects\\Android\\VRec-Recorder-Android\\app\\build\\intermediates\\res\\merged\\release\\xml_tab_text_selector.xml.flat",
+        "source": "C:\\Development\\Projects\\Android\\VRec-Recorder-Android\\app\\src\\main\\res\\xml\\tab_text_selector.xml"
+    },
+    {
+        "merged": "C:\\Development\\Projects\\Android\\VRec-Recorder-Android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_list_cat_icon_not_sel.png.flat",
+        "source": "C:\\Development\\Projects\\Android\\VRec-Recorder-Android\\app\\src\\main\\res\\drawable-mdpi\\list_cat_icon_not_sel.png"
+    },
+    {
+        "merged": "C:\\Development\\Projects\\Android\\VRec-Recorder-Android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_sett_cat_icon_not_sel.png.flat",
+        "source": "C:\\Development\\Projects\\Android\\VRec-Recorder-Android\\app\\src\\main\\res\\drawable-mdpi\\sett_cat_icon_not_sel.png"
+    },
+    {
+        "merged": "C:\\Development\\Projects\\Android\\VRec-Recorder-Android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_rec_start_btn_desable.png.flat",
+        "source": "C:\\Development\\Projects\\Android\\VRec-Recorder-Android\\app\\src\\main\\res\\drawable-mdpi\\rec_start_btn_desable.png"
+    },
+    {
+        "merged": "C:\\Development\\Projects\\Android\\VRec-Recorder-Android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_about_caption.jpg.flat",
+        "source": "C:\\Development\\Projects\\Android\\VRec-Recorder-Android\\app\\src\\main\\res\\drawable-mdpi\\about_caption.jpg"
+    },
+    {
+        "merged": "C:\\Development\\Projects\\Android\\VRec-Recorder-Android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_up_dev_tab.jpg.flat",
+        "source": "C:\\Development\\Projects\\Android\\VRec-Recorder-Android\\app\\src\\main\\res\\drawable-mdpi\\up_dev_tab.jpg"
+    },
+    {
+        "merged": "C:\\Development\\Projects\\Android\\VRec-Recorder-Android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_vrec48x48.png.flat",
+        "source": "C:\\Development\\Projects\\Android\\VRec-Recorder-Android\\app\\src\\main\\res\\drawable-mdpi\\vrec48x48.png"
+    },
+    {
+        "merged": "C:\\Development\\Projects\\Android\\VRec-Recorder-Android\\app\\build\\intermediates\\res\\merged\\release\\layout_vrec.xml.flat",
+        "source": "C:\\Development\\Projects\\Android\\VRec-Recorder-Android\\app\\src\\main\\res\\layout\\vrec.xml"
+    },
+    {
+        "merged": "C:\\Development\\Projects\\Android\\VRec-Recorder-Android\\app\\build\\intermediates\\res\\merged\\release\\layout_selecttabbackground.xml.flat",
+        "source": "C:\\Development\\Projects\\Android\\VRec-Recorder-Android\\app\\src\\main\\res\\layout\\selecttabbackground.xml"
+    },
+    {
+        "merged": "C:\\Development\\Projects\\Android\\VRec-Recorder-Android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_features.png.flat",
+        "source": "C:\\Development\\Projects\\Android\\VRec-Recorder-Android\\app\\src\\main\\res\\drawable-mdpi\\features.png"
+    },
+    {
+        "merged": "C:\\Development\\Projects\\Android\\VRec-Recorder-Android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_rec_stop_btn_desable.png.flat",
+        "source": "C:\\Development\\Projects\\Android\\VRec-Recorder-Android\\app\\src\\main\\res\\drawable-mdpi\\rec_stop_btn_desable.png"
+    },
+    {
+        "merged": "C:\\Development\\Projects\\Android\\VRec-Recorder-Android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_icon.png.flat",
+        "source": "C:\\Development\\Projects\\Android\\VRec-Recorder-Android\\app\\src\\main\\res\\drawable-mdpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Development\\Projects\\Android\\VRec-Recorder-Android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_sett_cat_icon_sel.png.flat",
+        "source": "C:\\Development\\Projects\\Android\\VRec-Recorder-Android\\app\\src\\main\\res\\drawable-mdpi\\sett_cat_icon_sel.png"
+    },
+    {
+        "merged": "C:\\Development\\Projects\\Android\\VRec-Recorder-Android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_categ_strip_bottom.jpg.flat",
+        "source": "C:\\Development\\Projects\\Android\\VRec-Recorder-Android\\app\\src\\main\\res\\drawable-mdpi\\categ_strip_bottom.jpg"
+    },
+    {
+        "merged": "C:\\Development\\Projects\\Android\\VRec-Recorder-Android\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_icon.png.flat",
+        "source": "C:\\Development\\Projects\\Android\\VRec-Recorder-Android\\app\\src\\main\\res\\drawable-hdpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Development\\Projects\\Android\\VRec-Recorder-Android\\app\\build\\intermediates\\res\\merged\\release\\layout_customtabshape.xml.flat",
+        "source": "C:\\Development\\Projects\\Android\\VRec-Recorder-Android\\app\\src\\main\\res\\layout\\customtabshape.xml"
+    },
+    {
+        "merged": "C:\\Development\\Projects\\Android\\VRec-Recorder-Android\\app\\build\\intermediates\\res\\merged\\release\\xml_menu.xml.flat",
+        "source": "C:\\Development\\Projects\\Android\\VRec-Recorder-Android\\app\\src\\main\\res\\xml\\menu.xml"
+    },
+    {
+        "merged": "C:\\Development\\Projects\\Android\\VRec-Recorder-Android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_tab_press.png.flat",
+        "source": "C:\\Development\\Projects\\Android\\VRec-Recorder-Android\\app\\src\\main\\res\\drawable-mdpi\\tab_press.png"
+    },
+    {
+        "merged": "C:\\Development\\Projects\\Android\\VRec-Recorder-Android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_rec_start_btn_over.png.flat",
+        "source": "C:\\Development\\Projects\\Android\\VRec-Recorder-Android\\app\\src\\main\\res\\drawable-mdpi\\rec_start_btn_over.png"
+    },
+    {
+        "merged": "C:\\Development\\Projects\\Android\\VRec-Recorder-Android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_right_img_sound_not_selec.png.flat",
+        "source": "C:\\Development\\Projects\\Android\\VRec-Recorder-Android\\app\\src\\main\\res\\drawable-mdpi\\right_img_sound_not_selec.png"
+    },
+    {
+        "merged": "C:\\Development\\Projects\\Android\\VRec-Recorder-Android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_rec_start_btn.png.flat",
+        "source": "C:\\Development\\Projects\\Android\\VRec-Recorder-Android\\app\\src\\main\\res\\drawable-mdpi\\rec_start_btn.png"
+    },
+    {
+        "merged": "C:\\Development\\Projects\\Android\\VRec-Recorder-Android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_development_caption.png.flat",
+        "source": "C:\\Development\\Projects\\Android\\VRec-Recorder-Android\\app\\src\\main\\res\\drawable-mdpi\\development_caption.png"
+    },
+    {
+        "merged": "C:\\Development\\Projects\\Android\\VRec-Recorder-Android\\app\\build\\intermediates\\res\\merged\\release\\layout_about.xml.flat",
+        "source": "C:\\Development\\Projects\\Android\\VRec-Recorder-Android\\app\\src\\main\\res\\layout\\about.xml"
+    },
+    {
+        "merged": "C:\\Development\\Projects\\Android\\VRec-Recorder-Android\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi_icon.png.flat",
+        "source": "C:\\Development\\Projects\\Android\\VRec-Recorder-Android\\app\\src\\main\\res\\drawable-ldpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Development\\Projects\\Android\\VRec-Recorder-Android\\app\\build\\intermediates\\res\\merged\\release\\layout_rlist.xml.flat",
+        "source": "C:\\Development\\Projects\\Android\\VRec-Recorder-Android\\app\\src\\main\\res\\layout\\rlist.xml"
+    },
+    {
+        "merged": "C:\\Development\\Projects\\Android\\VRec-Recorder-Android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_rec_stop_btn_over.png.flat",
+        "source": "C:\\Development\\Projects\\Android\\VRec-Recorder-Android\\app\\src\\main\\res\\drawable-mdpi\\rec_stop_btn_over.png"
+    },
+    {
+        "merged": "C:\\Development\\Projects\\Android\\VRec-Recorder-Android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_rec_stop_btn.png.flat",
+        "source": "C:\\Development\\Projects\\Android\\VRec-Recorder-Android\\app\\src\\main\\res\\drawable-mdpi\\rec_stop_btn.png"
+    },
+    {
+        "merged": "C:\\Development\\Projects\\Android\\VRec-Recorder-Android\\app\\build\\intermediates\\res\\merged\\release\\layout_main.xml.flat",
+        "source": "C:\\Development\\Projects\\Android\\VRec-Recorder-Android\\app\\src\\main\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "C:\\Development\\Projects\\Android\\VRec-Recorder-Android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_list_cat_icon_sel.png.flat",
+        "source": "C:\\Development\\Projects\\Android\\VRec-Recorder-Android\\app\\src\\main\\res\\drawable-mdpi\\list_cat_icon_sel.png"
+    },
+    {
+        "merged": "C:\\Development\\Projects\\Android\\VRec-Recorder-Android\\app\\build\\intermediates\\res\\merged\\release\\xml_tab_rec_btn.xml.flat",
+        "source": "C:\\Development\\Projects\\Android\\VRec-Recorder-Android\\app\\src\\main\\res\\xml\\tab_rec_btn.xml"
+    },
+    {
+        "merged": "C:\\Development\\Projects\\Android\\VRec-Recorder-Android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_rec_cat_icon_sel.png.flat",
+        "source": "C:\\Development\\Projects\\Android\\VRec-Recorder-Android\\app\\src\\main\\res\\drawable-mdpi\\rec_cat_icon_sel.png"
+    },
+    {
+        "merged": "C:\\Development\\Projects\\Android\\VRec-Recorder-Android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_categ_strip.jpg.flat",
+        "source": "C:\\Development\\Projects\\Android\\VRec-Recorder-Android\\app\\src\\main\\res\\drawable-mdpi\\categ_strip.jpg"
+    },
+    {
+        "merged": "C:\\Development\\Projects\\Android\\VRec-Recorder-Android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_info_cat_sel.png.flat",
+        "source": "C:\\Development\\Projects\\Android\\VRec-Recorder-Android\\app\\src\\main\\res\\drawable-mdpi\\info_cat_sel.png"
+    },
+    {
+        "merged": "C:\\Development\\Projects\\Android\\VRec-Recorder-Android\\app\\build\\intermediates\\res\\merged\\release\\layout_list_view.xml.flat",
+        "source": "C:\\Development\\Projects\\Android\\VRec-Recorder-Android\\app\\src\\main\\res\\layout\\list_view.xml"
+    },
+    {
+        "merged": "C:\\Development\\Projects\\Android\\VRec-Recorder-Android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_rec_cat_icon_not_sel.png.flat",
+        "source": "C:\\Development\\Projects\\Android\\VRec-Recorder-Android\\app\\src\\main\\res\\drawable-mdpi\\rec_cat_icon_not_sel.png"
+    },
+    {
+        "merged": "C:\\Development\\Projects\\Android\\VRec-Recorder-Android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_rec_page_bg.png.flat",
+        "source": "C:\\Development\\Projects\\Android\\VRec-Recorder-Android\\app\\src\\main\\res\\drawable-mdpi\\rec_page_bg.png"
+    },
+    {
+        "merged": "C:\\Development\\Projects\\Android\\VRec-Recorder-Android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_left_img_sound_not_selec.png.flat",
+        "source": "C:\\Development\\Projects\\Android\\VRec-Recorder-Android\\app\\src\\main\\res\\drawable-mdpi\\left_img_sound_not_selec.png"
+    }
+]

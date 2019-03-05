@@ -1,0 +1,93 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Development\Projects\Android\VRec-Recorder-Android\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from C:\Development\Projects\Android\VRec-Recorder-Android\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from C:\Development\Projects\Android\VRec-Recorder-Android\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from C:\Development\Projects\Android\VRec-Recorder-Android\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from C:\Development\Projects\Android\VRec-Recorder-Android\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from C:\Development\Projects\Android\VRec-Recorder-Android\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from C:\Development\Projects\Android\VRec-Recorder-Android\app\src\main\AndroidManifest.xml:2:1-29:12
+	package
+		ADDED from C:\Development\Projects\Android\VRec-Recorder-Android\app\src\main\AndroidManifest.xml:3:11-30
+		INJECTED from C:\Development\Projects\Android\VRec-Recorder-Android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Development\Projects\Android\VRec-Recorder-Android\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Development\Projects\Android\VRec-Recorder-Android\app\src\main\AndroidManifest.xml:5:11-36
+		INJECTED from C:\Development\Projects\Android\VRec-Recorder-Android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Development\Projects\Android\VRec-Recorder-Android\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Development\Projects\Android\VRec-Recorder-Android\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from C:\Development\Projects\Android\VRec-Recorder-Android\app\src\main\AndroidManifest.xml:4:11-34
+		INJECTED from C:\Development\Projects\Android\VRec-Recorder-Android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Development\Projects\Android\VRec-Recorder-Android\app\src\main\AndroidManifest.xml
+application
+ADDED from C:\Development\Projects\Android\VRec-Recorder-Android\app\src\main\AndroidManifest.xml:6:5-25:19
+	android:label
+		ADDED from C:\Development\Projects\Android\VRec-Recorder-Android\app\src\main\AndroidManifest.xml:6:18-42
+	android:icon
+		ADDED from C:\Development\Projects\Android\VRec-Recorder-Android\app\src\main\AndroidManifest.xml:6:43-77
+activity#com.delph.main
+ADDED from C:\Development\Projects\Android\VRec-Recorder-Android\app\src\main\AndroidManifest.xml:7:9-14:20
+	android:label
+		ADDED from C:\Development\Projects\Android\VRec-Recorder-Android\app\src\main\AndroidManifest.xml:9:19-51
+	android:theme
+		ADDED from C:\Development\Projects\Android\VRec-Recorder-Android\app\src\main\AndroidManifest.xml:8:19-66
+	android:name
+		ADDED from C:\Development\Projects\Android\VRec-Recorder-Android\app\src\main\AndroidManifest.xml:7:19-38
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Development\Projects\Android\VRec-Recorder-Android\app\src\main\AndroidManifest.xml:10:13-13:29
+action#android.intent.action.MAIN
+ADDED from C:\Development\Projects\Android\VRec-Recorder-Android\app\src\main\AndroidManifest.xml:11:17-68
+	android:name
+		ADDED from C:\Development\Projects\Android\VRec-Recorder-Android\app\src\main\AndroidManifest.xml:11:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Development\Projects\Android\VRec-Recorder-Android\app\src\main\AndroidManifest.xml:12:17-76
+	android:name
+		ADDED from C:\Development\Projects\Android\VRec-Recorder-Android\app\src\main\AndroidManifest.xml:12:27-74
+activity#com.delph.Rec
+ADDED from C:\Development\Projects\Android\VRec-Recorder-Android\app\src\main\AndroidManifest.xml:16:9-40
+	android:name
+		ADDED from C:\Development\Projects\Android\VRec-Recorder-Android\app\src\main\AndroidManifest.xml:16:19-38
+activity#com.delph.RecList
+ADDED from C:\Development\Projects\Android\VRec-Recorder-Android\app\src\main\AndroidManifest.xml:17:9-44
+	android:name
+		ADDED from C:\Development\Projects\Android\VRec-Recorder-Android\app\src\main\AndroidManifest.xml:17:19-42
+activity#com.delph.Settingz
+ADDED from C:\Development\Projects\Android\VRec-Recorder-Android\app\src\main\AndroidManifest.xml:18:9-20:20
+	android:label
+		ADDED from C:\Development\Projects\Android\VRec-Recorder-Android\app\src\main\AndroidManifest.xml:19:19-58
+	android:name
+		ADDED from C:\Development\Projects\Android\VRec-Recorder-Android\app\src\main\AndroidManifest.xml:18:19-43
+activity#com.delph.About
+ADDED from C:\Development\Projects\Android\VRec-Recorder-Android\app\src\main\AndroidManifest.xml:21:9-42
+	android:name
+		ADDED from C:\Development\Projects\Android\VRec-Recorder-Android\app\src\main\AndroidManifest.xml:21:19-40
+service#com.delph.vrec_service
+ADDED from C:\Development\Projects\Android\VRec-Recorder-Android\app\src\main\AndroidManifest.xml:23:9-71
+	android:enabled
+		ADDED from C:\Development\Projects\Android\VRec-Recorder-Android\app\src\main\AndroidManifest.xml:23:18-40
+	android:name
+		ADDED from C:\Development\Projects\Android\VRec-Recorder-Android\app\src\main\AndroidManifest.xml:23:41-69
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from C:\Development\Projects\Android\VRec-Recorder-Android\app\src\main\AndroidManifest.xml:27:5-70
+	android:name
+		ADDED from C:\Development\Projects\Android\VRec-Recorder-Android\app\src\main\AndroidManifest.xml:27:22-68
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Development\Projects\Android\VRec-Recorder-Android\app\src\main\AndroidManifest.xml:28:5-80
+	android:name
+		ADDED from C:\Development\Projects\Android\VRec-Recorder-Android\app\src\main\AndroidManifest.xml:28:22-78
+uses-sdk
+INJECTED from C:\Development\Projects\Android\VRec-Recorder-Android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Development\Projects\Android\VRec-Recorder-Android\app\src\main\AndroidManifest.xml
+INJECTED from C:\Development\Projects\Android\VRec-Recorder-Android\app\src\main\AndroidManifest.xml
+INJECTED from C:\Development\Projects\Android\VRec-Recorder-Android\app\src\main\AndroidManifest.xml
+INJECTED from C:\Development\Projects\Android\VRec-Recorder-Android\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Development\Projects\Android\VRec-Recorder-Android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Development\Projects\Android\VRec-Recorder-Android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Development\Projects\Android\VRec-Recorder-Android\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Development\Projects\Android\VRec-Recorder-Android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Development\Projects\Android\VRec-Recorder-Android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Development\Projects\Android\VRec-Recorder-Android\app\src\main\AndroidManifest.xml

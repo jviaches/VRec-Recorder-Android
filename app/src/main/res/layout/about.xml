@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <LinearLayout
+            android:id="@+id/parent"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView android:id="@+id/vrec_logo"
+                   android:background="@android:color/transparent"
+                   android:layout_height="wrap_content"
+                   android:layout_width="match_parent"
+                   android:adjustViewBounds="true"
+                   android:src="@drawable/logo_vrec">
+        </ImageView>
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <LinearLayout
+                android:id="@+id/main_bg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+        <ImageView android:id="@+id/option_title"
+                   android:background="@android:color/transparent"
+                   android:layout_height="wrap_content"
+                   android:layout_width="match_parent"
+                   android:layout_gravity="left"
+                   android:scaleType="fitStart"
+                   android:paddingLeft="15dip"
+                   android:paddingTop="10dip"
+                   android:src="@drawable/about_caption">
+        </ImageView>
+
+
+        <ImageView android:id="@+id/categ_strip"
+                   android:background="@android:color/transparent"
+                   android:layout_height="10dp"
+                   android:layout_width="match_parent"
+                   android:layout_gravity="left"
+                   android:src="@drawable/categ_strip">
+        </ImageView>
+
+
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:paddingLeft="15dip"
+                  android:paddingRight="15dip"
+                  android:text="Vrec Light is a free digital sound recorder which allows you to record any sound that is in close proximity of your smartphone. Light version of this application uses your phone's SD card as a default storage. After the installation if no specific audio format has been chosen, the application will use 3gp format by default .">
+        </TextView>
+
+        <ImageView android:id="@+id/categ_strip1"
+                    android:background="@android:color/transparent"
+                   android:layout_height="10dp"
+                   android:layout_width="match_parent"
+                   android:layout_gravity="left"
+                   android:src="@drawable/categ_strip">
+        </ImageView>
+
+        <ImageView android:id="@+id/option_title1"
+                   android:background="@android:color/transparent"
+                   android:layout_height="wrap_content"
+                   android:layout_width="match_parent"
+                   android:paddingLeft="14dip"
+                   android:layout_gravity="left"
+                   android:scaleType="fitStart"
+                   android:src="@drawable/features">
+        </ImageView>
+
+
+        <ImageView android:id="@+id/categ_strip2"
+                   android:background="@android:color/transparent"
+                   android:layout_height="10dp"
+                   android:layout_width="match_parent"
+                   android:layout_gravity="left"
+                   android:src="@drawable/categ_strip">
+        </ImageView>
+
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:paddingLeft="15dip"
+                  android:paddingRight="15dip"
+                  android:text="- Ability to record in various file formats.\n(Now supporting 3 - continuously growing)">
+        </TextView>
+
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:paddingLeft="15dip"
+                  android:paddingRight="15dip"
+                  android:text="- Recording unlimited time. \n- No limitation on record files amount. \n- Store files on SD card. \n- Ability to Play,Record,Rename and Delete recorded files.">
+        </TextView>
+
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:paddingLeft="15dip"
+                  android:paddingRight="15dip"
+                  android:text="- Ability to insert to stealth mode, I.E. record when even screen off or program has lost focus. \n(You may click home button after you started recording. You can back to VRec by clicking on VRec Pro)">
+        </TextView>
+
+        <ImageView android:id="@+id/categ_strip3"
+                   android:background="@android:color/transparent"
+                   android:layout_height="10dp"
+                   android:layout_width="match_parent"
+                   android:layout_gravity="left"
+                   android:src="@drawable/categ_strip">
+        </ImageView>
+
+
+        <ImageView android:id="@+id/option_title2"
+                   android:background="@android:color/transparent"
+                   android:layout_height="wrap_content"
+                   android:layout_width="match_parent"
+                   android:paddingLeft="14dip"
+                   android:layout_gravity="left"
+                   android:scaleType="fitStart"
+                   android:src="@drawable/development_caption">
+        </ImageView>
+
+
+        <ImageView android:id="@+id/categ_strip4"
+                   android:background="@android:color/transparent"
+                   android:layout_height="10dp"
+                   android:layout_width="match_parent"
+                   android:layout_gravity="left"
+                   android:src="@drawable/categ_strip">
+        </ImageView>
+
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:paddingLeft="15dip"
+                  android:paddingRight="15dip"
+                  android:text="With any feedbacks,comments or any kind of propositions please, don't hesitate to contact us:">
+        </TextView>
+
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:paddingLeft="15dip"
+                  android:paddingRight="15dip"
+                  android:text="Developer: jviaches@gmail.com">
+        </TextView>
+
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:paddingLeft="15dip"
+                  android:paddingRight="15dip"
+                  android:text="Designer: sashad2003@gmail.com ">
+        </TextView>
+    </LinearLayout>
+        </ScrollView>
+
+
+    </LinearLayout>
+

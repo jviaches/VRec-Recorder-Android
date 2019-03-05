@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/rootLayout"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="bottom"
+              android:background="@drawable/rec2"
+              android:orientation="vertical">
+
+        <TextView android:id="@+id/stam_txt"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:gravity="center"
+                  android:layout_weight="4"
+                  android:textColor="#FFFF00">
+        </TextView>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                      android:id="@+id/btns_rec_stop"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_weight="1"
+                      android:orientation="horizontal">
+
+            <ImageButton
+                    android:id="@+id/btnRecord"
+                    android:background="@android:color/transparent"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:onClick="btn_StartRecordClick"
+                    android:paddingLeft="5dip"
+                    android:src="@drawable/rec_start_btn">
+            </ImageButton>
+
+
+            <TextView android:id="@+id/stam_txt1"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:gravity="center"
+                      android:layout_weight="30">
+            </TextView>
+
+            <ImageButton
+                    android:id="@+id/btnStop"
+                    android:background="@android:color/transparent"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:onClick="btn_StopRecordClick"
+                    android:paddingRight="5dp"
+                    android:src="@drawable/rec_stop_btn_desable">
+            </ImageButton>
+
+        </LinearLayout>
+
+
+    <LinearLayout
+            android:id="@+id/timeLine_layout"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal">
+
+        <TextView android:text="Stopped   "
+                  android:id="@+id/recStatus"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:gravity="right|center_vertical"
+                  android:layout_gravity="fill_vertical"
+                  android:textColor="#FF0000"
+                  android:textSize="25px"
+                  android:textStyle="bold"
+                  android:layout_weight="1"/>
+
+        <TextView android:text="0:00:00"
+                  android:id="@+id/timeLine"
+                  android:layout_width="wrap_content"
+                  android:textSize="25px"
+                  android:textColor="#FFFFFF"
+                  android:gravity="left|center_vertical"
+                  android:layout_weight="1"
+                  android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</LinearLayout>
+

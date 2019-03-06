@@ -6,4 +6,4 @@
 
 ![alt text](https://github.com/jviaches/VRec-Recorder-Android/blob/master/Marketing/Screens/screenshot_5.png)
 
-![alt text](hhttps://github.com/jviaches/VRec-Recorder-Android/blob/master/Marketing/Screens/screenshot_6.png)
+![alt text](https://github.com/jviaches/VRec-Recorder-Android/blob/master/Marketing/Screens/screenshot_6.png)

@@ -1,4 +1,0 @@
-#Tue Mar 05 17:14:37 CST 2019
-base.0=C\:\\Development\\Projects\\Android\\VRec1\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out
-path.0=classes.dex
-renamed.0=classes.dex

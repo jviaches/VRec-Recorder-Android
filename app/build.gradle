@@ -5,7 +5,7 @@ android {
     buildToolsVersion "28.0.3"
 
     defaultConfig {
-        applicationId "com.delph"
+        applicationId "com.techflask.vrec"
 
         // Defines the minimum API level required to run the app.
         minSdkVersion 21

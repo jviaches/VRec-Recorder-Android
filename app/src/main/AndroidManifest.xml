@@ -1,29 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.techflask.vrec"
-          android:versionCode="1"
-          android:versionName="1.01">
-    <application android:label="VRec Pro" android:icon="@drawable/vrec48x48">
-        <activity android:name="main"
-                  android:theme="@android:style/Theme.NoTitleBar"
-                  android:label="@string/app_name">
+    package="com.techflask.vrec"
+    android:versionCode="1"
+    android:versionName="1.01">
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:icon="@drawable/vrec48x48"
+        android:label="VRec Pro">
+        <activity
+            android:name=".SplashActivity"
+            android:label="@string/title_activity_splash"
+            android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
-                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".main"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-        <activity android:name=".Rec"/>
-        <activity android:name=".RecList"/>
-        <activity android:name=".Settingz"
-                  android:label="@string/set_preferences">
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
-        <activity android:name=".About"/>
+        <activity android:name=".Rec" />
+        <activity android:name=".RecList" />
+        <activity
+            android:name=".Settingz"
+            android:label="@string/set_preferences"></activity>
+        <activity android:name=".About" />
 
-        <service android:enabled="true" android:name=".vrec_service"/>
-
+        <service
+            android:name=".vrec_service"
+            android:enabled="true" />
     </application>
 
-    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
 </manifest>

@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2007 The Android Open Source Project
+<?xml version="1.0" encoding="utf-8"?><!-- Copyright (C) 2007 The Android Open Source Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -16,8 +15,7 @@
 
 <resources>
     <!-- Base application theme is the default theme. -->
-    <style name="Theme" parent="android:Theme">
-    </style>
+    <style name="Theme" parent="android:Theme"></style>
 
     <!-- Variation on our application theme that forces a plain
         text style. -->
@@ -43,7 +41,7 @@
     <!-- A theme that has a translucent background.  Here we explicitly specify
          that this theme is to inherit from the system's translucent theme,
          which sets up various attributes correctly. -->
-    <style name="Theme.Translucent" >
+    <style name="Theme.Translucent">
         <item name="android:windowBackground">@drawable/translucent_background</item>
         <item name="android:windowNoTitle">true</item>
         <item name="android:colorForeground">#fff</item>
@@ -65,6 +63,17 @@
     <style name="TextAppearance.Theme.PlainText" parent="android:TextAppearance.Theme">
         <item name="android:textStyle">normal</item>
     </style>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light" />
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
 
 </resources>

@@ -8,13 +8,28 @@ package com.techflask.vrec;
  * To change this template use File | Settings | File Templates.
  */
 
+import android.Manifest;
 import android.app.Activity;
+import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.pm.ActivityInfo;
+import android.content.pm.PackageManager;
+import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
+import android.provider.Settings;
+import android.support.annotation.NonNull;
+import android.support.v4.app.ActivityCompat;
+import android.support.v4.content.ContextCompat;
+import android.support.v7.app.AlertDialog;
 import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 public class Rec extends Activity {
 
@@ -27,16 +42,17 @@ public class Rec extends Activity {
     ImageButton rec_Btn;
     ImageButton stop_Btn;
 
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.vrec);
-        setRequestedOrientation(1); // http://developer.android.com/reference/android/R.attr.html#screenOrientation
-        mTimeTextField = (TextView) findViewById(R.id.timeLine);
-        recStatus = (TextView) findViewById(R.id.recStatus);
-        rec_Btn = (ImageButton) findViewById(R.id.btnRecord);
-        stop_Btn = (ImageButton) findViewById(R.id.btnStop);
-        timeLine = (TextView) findViewById(R.id.timeLine);
+        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT); // http://developer.android.com/reference/android/R.attr.html#screenOrientation
+        mTimeTextField = findViewById(R.id.timeLine);
+        recStatus = findViewById(R.id.recStatus);
+        rec_Btn = findViewById(R.id.btnRecord);
+        stop_Btn = findViewById(R.id.btnStop);
+        timeLine = findViewById(R.id.timeLine);
     }
 
     // Button Listener for starting recording
@@ -49,17 +65,19 @@ public class Rec extends Activity {
                 mHandler.removeCallbacks(mUpdateTimeTask);
                 mHandler.postDelayed(mUpdateTimeTask, 100);
             }
+
             isRecording = true;
             rec_Btn.setImageDrawable(this.getResources().getDrawable(R.drawable.rec_start_btn_desable));
             stop_Btn.setImageDrawable(this.getResources().getDrawable(R.drawable.rec_stop_btn));
             recStatus.setText("Recording   ");
             startService(new Intent(this, vrec_service.class));
+
         } else {
             Toast msg = Toast.makeText(this, "Can't start new recording !\nAlready recording !", Toast.LENGTH_LONG);
             msg.show();
         }
-    }
 
+    }
 
     private Runnable mUpdateTimeTask = new Runnable() {
         public void run() {

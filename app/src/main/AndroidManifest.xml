@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           package="com.techflask.vrec"
           android:versionCode="1"
-          android:versionName="1.0">
+          android:versionName="1.01">
     <application android:label="VRec Pro" android:icon="@drawable/vrec48x48">
         <activity android:name="main"
                   android:theme="@android:style/Theme.NoTitleBar"

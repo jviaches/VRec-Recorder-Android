@@ -48,6 +48,9 @@ public class RecList extends Activity {
         }
 
         public int getCount() {
+            if (fileList == null)
+                return 0;
+
             return fileList.length;
         }
 
@@ -88,8 +91,12 @@ public class RecList extends Activity {
                 storageDir = new File(Environment.getExternalStoragePublicDirectory(cont.getString(R.string.FILEPATH)) + "");
                 storageDir.mkdir();
                 //Toast.makeText(cont,"New directory has been created: "+ storageDir,100).show();
+            }finally {
+                if(storageDir == null)
+                    return new File[0];
+                else
+                    return storageDir.listFiles();
             }
-            return storageDir.listFiles();
         }
     }
 

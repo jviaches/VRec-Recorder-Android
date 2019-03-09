@@ -9,13 +9,14 @@
             android:layout_height="match_parent">
 
         <FrameLayout
-                android:id="@android:id/tabcontent"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_weight="1"/>
+            android:id="@android:id/tabcontent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/black" />
 
         <ImageView
-                android:background="@android:color/transparent"
+                android:background="@android:color/black"
                 android:id="@+id/uppr_div"
                 android:layout_height="4dp"
                 android:layout_width="match_parent"
@@ -24,19 +25,19 @@
         </ImageView>
 
         <TabWidget
-                android:id="@android:id/tabs"
-                android:layout_width="match_parent"
-                android:layout_height="70dip"
-                android:tabStripEnabled="false"></TabWidget>
+            android:id="@android:id/tabs"
+            android:layout_width="match_parent"
+            android:layout_height="70dip"
+            android:background="@color/black"
+            android:tabStripEnabled="false" />
 
         <ImageView
-                android:background="@android:color/transparent"
-                android:id="@+id/btm_div"
-                android:layout_height="4dp"
-                android:layout_width="match_parent"
-                android:layout_gravity="top"
-                android:src="@drawable/categ_strip_bottom">
-        </ImageView>
+            android:id="@+id/btm_div"
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:layout_gravity="top"
+            android:background="@android:color/black"
+            android:src="@drawable/categ_strip_bottom"/>
 
     </LinearLayout>
 

@@ -5,6 +5,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         xmlns:android="http://schemas.android.com/apk/res/android"
+        android:background="@color/black"
         android:orientation="vertical">
 
 
@@ -41,6 +42,7 @@
               android:layout_height="wrap_content"
               android:paddingLeft="15dip"
               android:paddingRight="15dip"
+              android:textColor="@color/white"
               android:text="File Type:">
     </TextView>
 
@@ -61,6 +63,7 @@
                     android:layout_weight="1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:textColor="@color/white"
                     android:text="3gp"/>
 
             <RadioButton
@@ -68,6 +71,7 @@
                     android:layout_weight="1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:textColor="@color/white"
                     android:text="amr"/>
 
             <RadioButton
@@ -75,6 +79,7 @@
                     android:layout_weight="1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:textColor="@color/white"
                     android:text="mp4"/>
         </RadioGroup>
 
@@ -113,6 +118,7 @@
     <TextView android:id="@+id/filepath"
               android:layout_width="wrap_content"
               android:layout_height="wrap_content"
+              android:textColor="@color/white"
               android:text="">
     </TextView>
 

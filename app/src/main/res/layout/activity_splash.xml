@@ -1,12 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="#Ff000000"
-    tools:context=".SplashActivity">
-
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:id="@+id/rootLayout"
         android:layout_width="match_parent"
@@ -14,5 +6,3 @@
         android:gravity="bottom"
         android:background="@drawable/rec2"
         android:orientation="vertical" />
-
-</android.support.design.widget.CoordinatorLayout>

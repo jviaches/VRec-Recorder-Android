@@ -11,6 +11,9 @@ import android.widget.Toast;
 
 import java.io.File;
 import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.time.format.DateTimeFormatter;
+import java.util.Date;
 
 /**
  * Created by IntelliJ IDEA.
@@ -74,7 +77,10 @@ public class vrec_service extends Service {
 
         }
 
-        String avaiable_counter = checkForCounter(file_counter, "Record N_", storageDir);
+        SimpleDateFormat format = new SimpleDateFormat("yyyyMMdd-HHmmss");
+        String dateString = format.format( new Date()   );
+
+        String fileName = "Record_" + dateString;
         try {
             // init recorder
             recorder.setAudioSource(MediaRecorder.AudioSource.MIC);
@@ -90,17 +96,17 @@ public class vrec_service extends Service {
                 recorder.setOutputFormat(MediaRecorder.OutputFormat.THREE_GPP);
                 recorder.setAudioEncoder(MediaRecorder.AudioEncoder.AMR_NB);
                 recorder.setOutputFile(Environment.getExternalStoragePublicDirectory(this.getString(R.string.FILEPATH)) + "/" +
-                        avaiable_counter + ".3gp");
+                        fileName + ".3gp");
             } else if (audio_codec.equals("AMR")) {
                 recorder.setOutputFormat(MediaRecorder.OutputFormat.RAW_AMR);
                 recorder.setAudioEncoder(MediaRecorder.AudioEncoder.AMR_NB);
                 recorder.setOutputFile(Environment.getExternalStoragePublicDirectory(this.getString(R.string.FILEPATH)) + "/" +
-                        avaiable_counter + ".amr");
+                        fileName + ".amr");
             } else if (audio_codec.equals("MP4")) {
                 recorder.setOutputFormat(MediaRecorder.OutputFormat.MPEG_4);
                 recorder.setAudioEncoder(MediaRecorder.AudioEncoder.AMR_NB);
                 recorder.setOutputFile(Environment.getExternalStoragePublicDirectory(this.getString(R.string.FILEPATH)) + "/" +
-                        avaiable_counter + ".mp4");
+                        fileName + ".mp4");
             }
             recorder.prepare();
             recorder.start();
@@ -121,68 +127,5 @@ public class vrec_service extends Service {
             Toast.makeText(this, "Cant stop record - [Error 4]", 100).show();
         }
     }
-
-    // Method that makes audio file name according to current system counter
-/*    public String checkForCounter(int counter, String filePreName, File dir) {
-
-        String goodFileName = "";
-        String[] children = dir.list();
-
-        if (children == null) {
-            // Either dir does not exist or is not a directory
-        } else {
-            for (int i = 0; i < children.length; i++) {
-                // Get filename of file or directory
-                String filename = children[i];
-                String[] tempName = filename.split("\\.");
-
-                if (tempName[0].equals(filePreName + counter)) {
-                    counter += 1;
-                } else {
-                    SharedPreferences.Editor spe = sharedPreferences.edit();
-                    spe.putInt("fCounter", counter);
-                    spe.commit();
-                    return goodFileName += filePreName + counter;
-                }
-            }
-            SharedPreferences.Editor spe = sharedPreferences.edit();
-            spe.putInt("fCounter", counter);
-            spe.commit();
-            return goodFileName += filePreName + counter;
-        }
-        return goodFileName += filePreName+"0";
-    }*/
-
-    public String checkForCounter(int counter, String filePreName, File dir) {
-
-        String goodFileName = "";
-
-
-        String[] children = dir.list();
-        if (children == null) {
-            // Either dir does not exist or is not a directory
-        } else {
-            for (int i = 0; i < children.length; i++) {
-                // Get filename of file or directory
-                String filename = children[i];
-                String[] tempName = filename.split("\\.");
-
-                if (tempName[0].equals(filePreName + counter)) {
-                    counter += 1;
-                } else {
-                    SharedPreferences.Editor spe = sharedPreferences.edit();
-                    spe.putInt("fCounter", counter);
-                    spe.commit();
-                    return goodFileName += filePreName + counter;
-                }
-            }
-            SharedPreferences.Editor spe = sharedPreferences.edit();
-            spe.putInt("fCounter", counter);
-            spe.commit();
-            return goodFileName += filePreName + counter;
-        }
-        return goodFileName += filePreName;
-    }
-
 
 }

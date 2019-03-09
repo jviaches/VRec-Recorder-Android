@@ -1,6 +1,7 @@
 package com.techflask.vrec;
 
 import android.Manifest;
+import android.app.Activity;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.PackageManager;
@@ -22,7 +23,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class SplashActivity extends AppCompatActivity {
+public class SplashActivity extends Activity {
 
     // List of all permissions for the app
     String[] appPermissions = {

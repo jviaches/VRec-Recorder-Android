@@ -20,21 +20,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".main"
-            android:label="@string/app_name"
-            android:theme="@android:style/Theme.NoTitleBar">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+        <activity android:name=".main" />
         <activity android:name=".Rec" />
         <activity android:name=".RecList" />
-        <activity
-            android:name=".Settingz"
-            android:label="@string/set_preferences"></activity>
+        <activity android:name=".Settingz" />
         <activity android:name=".About" />
 
         <service

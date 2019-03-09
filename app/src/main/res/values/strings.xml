@@ -22,7 +22,7 @@
         <item>3PG is selected</item>
         <item>AMR is selected</item>
     </string-array>
-    <string name="title_activity_splash">SplashActivity</string>
+    <string name="title_activity_splash">VRec Pro</string>
 </resources>
 
 

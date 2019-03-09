@@ -18,11 +18,15 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Environment;
+import android.os.StrictMode;
+import android.support.v4.content.FileProvider;
 import android.view.*;
 import android.widget.*;
 
 import java.io.File;
 import java.util.Date;
+
+import static android.provider.MediaStore.AUTHORITY;
 
 
 public class RecList extends Activity {
@@ -126,6 +130,10 @@ public class RecList extends Activity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        // allow to continue work with old URI file instead of new FileProvider API (API 24+)
+        StrictMode.VmPolicy.Builder builder = new StrictMode.VmPolicy.Builder(); StrictMode.setVmPolicy(builder.build());
+
         setContentView(R.layout.rlist);
         ListViewSetup();
     }

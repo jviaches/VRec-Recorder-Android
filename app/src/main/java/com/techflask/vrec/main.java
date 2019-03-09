@@ -79,6 +79,7 @@ public class main extends TabActivity {
                 alertDialog.setMessage("Are you sure ?");
                 alertDialog.setButton("OK", new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int which) {
+                        moveTaskToBack(true);
                         finish();
                     }
                 });

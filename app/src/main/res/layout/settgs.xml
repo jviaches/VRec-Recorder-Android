@@ -59,6 +59,14 @@
                     android:id="@+id/QueGroup1">
 
             <RadioButton
+                android:id="@+id/codec_mpeg4"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="mp4"/>
+
+            <RadioButton
                     android:id="@+id/codec_3pg"
                     android:layout_weight="1"
                     android:layout_width="wrap_content"
@@ -74,13 +82,6 @@
                     android:textColor="@color/white"
                     android:text="amr"/>
 
-            <RadioButton
-                    android:id="@+id/codec_mpeg4"
-                    android:layout_weight="1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textColor="@color/white"
-                    android:text="mp4"/>
         </RadioGroup>
 
     </LinearLayout>

@@ -25,23 +25,13 @@ public class Settingz extends Activity {
         setContentView(R.layout.settgs);
         setRequestedOrientation(1); // http://developer.android.com/reference/android/R.attr.html#screenOrientation
 
-        String Acodec;
-
-        RadioButton radioButton_3pg = (RadioButton) findViewById(R.id.codec_3pg);
-        RadioButton radioButton_amr = (RadioButton) findViewById(R.id.codec_amr);
-        RadioButton radioButton_mpeg4 = (RadioButton) findViewById(R.id.codec_mpeg4);
+        RadioButton radioButton_3pg = findViewById(R.id.codec_3pg);
+        RadioButton radioButton_amr = findViewById(R.id.codec_amr);
+        RadioButton radioButton_mpeg4 = findViewById(R.id.codec_mpeg4);
 
         // store variable
         prefs = PreferenceManager.getDefaultSharedPreferences(this);
-        Acodec = prefs.getString("AudioCodec", "");
-
-        // 3pg is deafault audio codec format
-        if (Acodec.equals("")) {
-            SharedPreferences.Editor spe = prefs.edit();
-            spe.putString("AudioCodec", "3GP");
-            spe.commit();
-            Acodec = prefs.getString("AudioCodec", "");
-        }
+        String Acodec = prefs.getString("AudioCodec", "MP4");
 
         if (Acodec.equals("3GP")) {
             radioButton_amr.setChecked(false);
@@ -60,13 +50,12 @@ public class Settingz extends Activity {
         }
 
         // Radio buttons Listeners implementations
-
         radioButton_3pg.setOnClickListener(new RadioButton.OnClickListener() {
 
             public void onClick(View view) {
                 SharedPreferences.Editor spe = prefs.edit();
                 spe.putString("AudioCodec", "3GP"); // we just save “true” in the xml file
-                spe.commit();
+                spe.apply();
             }
         });
 
@@ -75,7 +64,7 @@ public class Settingz extends Activity {
             public void onClick(View view) {
                 SharedPreferences.Editor spe = prefs.edit();
                 spe.putString("AudioCodec", "AMR"); // we just save “true” in the xml file
-                spe.commit();
+                spe.apply();
             }
         });
 
@@ -85,13 +74,12 @@ public class Settingz extends Activity {
             public void onClick(View view) {
                 SharedPreferences.Editor spe = prefs.edit();
                 spe.putString("AudioCodec", "MP4"); // we just save “true” in the xml file
-                spe.commit();
+                spe.apply();
             }
         });
 
 
         TextView fPath = (TextView) findViewById(R.id.filepath);
-        fPath.setText("    Storage directory : " +
-                Environment.getExternalStoragePublicDirectory(this.getString(R.string.FILEPATH)));
+        fPath.setText("    Storage directory : " + Environment.getExternalStoragePublicDirectory(this.getString(R.string.FILEPATH)));
     }
 }
